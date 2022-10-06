@@ -30,6 +30,7 @@ function SpicyFoodList() {
     setFoods(newFoodArr);
   }
 
+
   const foodList = foods.map((food) => (
     <li key={food.id} onClick= {() => {
       handleClick(food.id)
